@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Election Randomizer</string>
+    <string name="welcome">Welcome to President Randomizer</string>
+    <string name="get_my_president">Get my president, NOW! (shake)</string>
+    <string name="randomizing">Some loader....</string>
+    <string name="vote_to">Vote to:</string>
+    <string name="other_president">I do not like this one! (shake)</string>
+</resources>

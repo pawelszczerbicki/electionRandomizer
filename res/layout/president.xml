@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/vote_to"
+            android:id="@+id/voteTo" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/presidentName" android:layout_below="@+id/voteTo" android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/party" android:layout_below="@+id/presidentName" android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/other_president"
+            android:id="@+id/other" android:layout_below="@+id/party" android:layout_centerHorizontal="true"
+            android:layout_marginTop="115dp" android:onClick="showMyPresident"/>
+</RelativeLayout>
